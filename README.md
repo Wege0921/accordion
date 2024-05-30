@@ -19,7 +19,7 @@ This repository contains a React component that implements an accordion interfac
 
    ```sh
    git clone https://github.com/Wege0921/accordion.git
-   cd accordion-component
+   cd accordion
    ```
 
 2. Install the dependencies:
@@ -37,7 +37,7 @@ This repository contains a React component that implements an accordion interfac
 
 ### Accordion Component
 
-The `Accordion` component renders a list of questions and answers. It uses the following state variables:
+The `accordion` component renders a list of questions and answers. It uses the following state variables:
 
 - `selected`: Keeps track of the currently selected question in single selection mode.
 - `enableMulti`: Boolean flag to toggle between single and multiple selection modes.
@@ -61,6 +61,7 @@ The data used by the accordion is an array of objects, where each object represe
 
 ```js
 const data = [
+  //This is just sample data
   {
     id: 1,
     question: "What is React?",
